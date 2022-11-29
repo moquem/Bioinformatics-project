@@ -5,8 +5,8 @@ from random_newick_tree import random_newick_tree
 from minimal_crossing import OTCM
 
 
-N_MAX = 100
-N_AVG = 10
+N_MAX = 10000
+N_AVG = 100
 X = np.array(range(N_MAX))
 
 avg_time = np.zeros(N_MAX)
